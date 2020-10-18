@@ -1,0 +1,16 @@
+.FormField {
+  display: flex;
+  flex-direction: column;
+}
+
+.input {
+  border: 1px solid lightgray;
+  padding: 10px;
+}
+
+.error {
+  font-size: small;
+  color: crimson;
+  margin-top: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}

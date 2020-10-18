@@ -1,0 +1,22 @@
+.Form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.Form input {
+}
+
+.submitBtn {
+  padding: 5px;
+  border: 1px solid lightgray;
+  color: gray;
+  background-color: white;
+  min-width: 100px;
+}
+
+.submitBtn:hover {
+  cursor: pointer;
+  color: black;
+  border: 1px solid black;
+}
