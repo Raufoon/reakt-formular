@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import { Formular, Formularfield } from 'react-formular'
+import { Formular, Formularfeld } from 'react-formular'
 import 'react-formular/dist/index.css'
 
 const App = () => {
@@ -13,14 +13,14 @@ const App = () => {
         }
       }
     >
-      <Formularfield
+      <Formularfeld
         className='example'
         name="fullname"
         type="text"
         placeholder="Your name"
       />
 
-      <Formularfield
+      <Formularfeld
         name="email"
         type="email"
         placeholder="Enter a password"
@@ -28,7 +28,7 @@ const App = () => {
         errorMsg={ <b>Must be a real email</b> }
       />
 
-      <Formularfield
+      <Formularfeld
         name="password"
         placeholder="Enter a password"
         type="password"
@@ -41,7 +41,7 @@ const App = () => {
         }
       />
 
-      <Formularfield
+      <Formularfeld
         name="gender"
         type="dropdown"
         placeholder="Your gender"
@@ -54,7 +54,7 @@ const App = () => {
       />
 
       {/* To create a custom complex field */}
-      <FormField
+      <Formularfeld
         name="example"
         type="component"
         validate={

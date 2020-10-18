@@ -1,6 +1,6 @@
 {
   "name": "reakt-formular",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A react way to create fast and efficient forms with flexible form fields having runtime validation",
   "author": "Raufoon",
   "license": "MIT",
