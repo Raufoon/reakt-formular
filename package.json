@@ -1,10 +1,10 @@
 {
-  "name": "react-formular",
-  "version": "1.0.0",
+  "name": "reakt-formular",
+  "version": "1.0.1",
   "description": "A react way to create fast and efficient forms with flexible form fields having runtime validation",
   "author": "Raufoon",
   "license": "MIT",
-  "repository": "Raufoon/react-formular",
+  "repository": "Raufoon/reakt-formular",
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
   "source": "src/index.js",
