@@ -1,8 +1,8 @@
-# react-formular
+# reakt-formular
 
 > A react way to create fast and efficient forms with flexible form fields having runtime validation
 
-[![NPM](https://img.shields.io/npm/v/react-formular.svg)](https://www.npmjs.com/package/react-formular) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![NPM](https://img.shields.io/npm/v/reakt-formular.svg)](https://www.npmjs.com/package/reakt-formular) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 ## Install
 
@@ -14,8 +14,8 @@ npm install --save reakt-formular
 
 ```jsx
 import React, { useEffect, useState } from 'react'
-import { Formular, Formularfeld } from 'react-formular'
-import 'react-formular/dist/index.css'
+import { Formular, Formularfeld } from 'reakt-formular'
+import 'reakt-formular/dist/index.css'
 
 const App = () => {
   return (

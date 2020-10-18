@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
-import { Formular, Formularfeld } from 'react-formular'
-import 'react-formular/dist/index.css'
+import { Formular, Formularfeld } from 'reakt-formular'
+import 'reakt-formular/dist/index.css'
 
 const App = () => {
   return (
