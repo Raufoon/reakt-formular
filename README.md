@@ -7,7 +7,7 @@
 ## Install
 
 ```bash
-npm install --save react-formular
+npm install --save reakt-formular
 ```
 
 ## Usage
