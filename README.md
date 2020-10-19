@@ -48,7 +48,7 @@ const App = () => {
         placeholder="Enter a password"
         type="password"
         validate={ value => value.length > 5 && /^(([a-z]+)|([A-Z]+))+$/ }
-        errorMsg={
+        getErrorMsg={
           value => {
             if (value.length <= 5) return <b>Password must be larger than 5 characters</b>
             return 'Password is invalid'
